@@ -7,11 +7,11 @@ const express = require('express');
  app.get('/recipes', (req, res) => {
      const recipes = [
       {
-        "id": 1,
-        "nombreDeLaReceta": "Arroz con pollo",
-        "porciones": "4",
-        "tiempoDePreparacion": "45",
-        "pasoAPaso": [
+        id: 1,
+        nombreDeLaReceta: "Arroz con pollo",
+        porciones: "4",
+        tiempoDePreparacion: "45",
+        pasoAPaso: [
           "1. En una olla, calentar aceite y freír el pollo hasta dorar.",
           "2. Agregar el arroz y mezclar bien.",
           "3. Añadir el caldo y los condimentos.",
@@ -20,11 +20,11 @@ const express = require('express');
         ]
       },
       {
-        "id": 2,
-        "nombreDeLaReceta": "Spaghetti a la bolognesa",
-        "porciones": "6",
-        "tiempoDePreparacion": "60",
-        "pasoAPaso": [
+        id: 2,
+        nombreDeLaReceta: "Spaghetti a la bolognesa",
+        porciones: 6,
+        tiempoDePreparacion: 60,
+        pasoAPaso: [
           "1. En una sartén, calentar aceite y sofreír la cebolla y el ajo.",
           "2. Agregar la carne molida y cocinar hasta que esté dorada.",
           "3. Añadir la salsa de tomate y los condimentos.",
@@ -34,11 +34,11 @@ const express = require('express');
         ]
       },
       {
-        "id": 3,
-        "nombreDeLaReceta": "Ensalada César",
-        "porciones": "2",
-        "tiempoDePreparacion": "15",
-        "pasoAPaso": [
+        id: 3,
+        nombreDeLaReceta: "Ensalada César",
+        porciones: 2,
+        tiempoDePreparacion: 15,
+        pasoAPaso: [
           "1. Lavar y picar la lechuga en trozos pequeños.",
           "2. En un tazón grande, mezclar la lechuga con el aderezo César.",
           "3. Agregar los croutones y el queso parmesano.",
@@ -47,11 +47,11 @@ const express = require('express');
         ]
       },
       {
-        "id": 4,
-        "nombreDeLaReceta": "Tacos de carne asada",
-        "porciones": "8",
-        "tiempoDePreparacion": "30",
-        "pasoAPaso": [
+        id: 4,
+        nombreDeLaReceta: "Tacos de carne asada",
+        porciones: 8,
+        tiempoDePreparacion: 30,
+        pasoAPaso: [
           "1. Cortar la carne en tiras delgadas.",
           "2. En una sartén, calentar aceite y freír la carne hasta que esté dorada.",
           "3. Calentar las tortillas en un comal o sartén.",
@@ -60,11 +60,11 @@ const express = require('express');
         ]
       },
       {
-        "id": 5,
-        "nombreDeLaReceta": "Hamburguesa casera",
-        "porciones": "4",
-        "tiempoDePreparacion": "30",
-        "pasoAPaso": [
+        id: 5,
+        nombreDeLaReceta: "Hamburguesa casera",
+        porciones: 4,
+        tiempoDePreparacion: 30,
+        pasoAPaso: [
           "1. En un tazón grande, mezclar la carne molida con los condimentos.",
           "2. Formar las hamburguesas y refrigerar durante 1 hora.",
           "3. En una sartén o parrilla, cocinar las hamburguesas a fuego medio-alto durante 4-5 minutos por cada lado.",
