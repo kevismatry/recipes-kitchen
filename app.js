@@ -9,8 +9,8 @@ const express = require('express');
       {
         id: 1,
         RecipeName: "Arroz con pollo",
-        servings: "4",
-        PreparationTime: "45",
+        servings: 4,
+        PreparationTime: 45,
         StepbyStep: [
           "1. En una olla, calentar aceite y freír el pollo hasta dorar.",
           "2. Agregar el arroz y mezclar bien.",
