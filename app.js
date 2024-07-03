@@ -17,7 +17,8 @@ const express = require('express');
           "3. Añadir el caldo y los condimentos.",
           "4. Cocinar a fuego medio hasta que el arroz esté tierno.",
           "5. Servir caliente."
-        ]
+        ],
+        "ImageName": "receta_1_arroz_con_pollo.jpg"
       },
       {
         id: 2,
@@ -31,7 +32,8 @@ const express = require('express');
           "4. Cocinar a fuego lento durante 30 minutos.",
           "5. Cocinar la pasta según las instrucciones del paquete.",
           "6. Servir la pasta con la salsa bolognesa encima."
-        ]
+        ],
+         "ImageName": "receta_2_espagueti_a_la_bolonesa.jpg"
       },
       {
         id: 3,
@@ -44,7 +46,8 @@ const express = require('express');
           "3. Agregar los croutones y el queso parmesano.",
           "4. Mezclar bien todos los ingredientes.",
           "5. Servir frío."
-        ]
+        ],
+        "ImageName": "receta_3_ensalada_cesar.jpg"
       },
       {
         id: 4,
@@ -57,7 +60,8 @@ const express = require('express');
           "3. Calentar las tortillas en un comal o sartén.",
           "4. Rellenar las tortillas con la carne asada y agregar salsa y guarniciones al gusto.",
           "5. Servir caliente."
-        ]
+        ],
+        "ImageName": "receta_4_tacos_de_carne.jpg"
       },
       {
         id: 5,
@@ -70,7 +74,8 @@ const express = require('express');
           "3. En una sartén o parrilla, cocinar las hamburguesas a fuego medio-alto durante 4-5 minutos por cada lado.",
           "4. Tostar los panes y montar las hamburguesas con los ingredientes deseados.",
           "5. Servir caliente."
-        ]
+        ],
+        "ImageName": "receta_5_hamburguesa_casera.jpg"
       }
       ];
      res.json(recipes);
