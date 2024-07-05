@@ -18,7 +18,7 @@ const express = require('express');
           "4. Cocinar a fuego medio hasta que el arroz esté tierno.",
           "5. Servir caliente."
         ],
-        imageName: "https://imgur.com/a/RxKHRj3"
+        imageName: "https://i.imgur.com/rrDwsHP.jpeg"
       },
       {
         id: 2,
@@ -33,7 +33,7 @@ const express = require('express');
           "5. Cocinar la pasta según las instrucciones del paquete.",
           "6. Servir la pasta con la salsa bolognesa encima."
         ],
-         "ImageName": "receta_2_espagueti_a_la_bolonesa.jpg"
+         ImageName: "https://img-global.cpcdn.com/recipes/f4602e2b1a90452c/680x482cq70/espagueti-a-la-bolonesa-o-bolognesa-foto-principal.jpg"
       },
       {
         id: 3,
@@ -47,7 +47,7 @@ const express = require('express');
           "4. Mezclar bien todos los ingredientes.",
           "5. Servir frío."
         ],
-        "ImageName": "receta_3_ensalada_cesar.jpg"
+        ImageName: "https://img-global.cpcdn.com/recipes/1036403730ea5ec6/400x400cq70/photo.jpg"
       },
       {
         id: 4,
@@ -61,7 +61,7 @@ const express = require('express');
           "4. Rellenar las tortillas con la carne asada y agregar salsa y guarniciones al gusto.",
           "5. Servir caliente."
         ],
-        "ImageName": "receta_4_tacos_de_carne.jpg"
+        ImageName: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrPsCHRLgQbAbOCqieML-MwCLQCrEMCSP1IQ&s"
       },
       {
         id: 5,
@@ -75,7 +75,7 @@ const express = require('express');
           "4. Tostar los panes y montar las hamburguesas con los ingredientes deseados.",
           "5. Servir caliente."
         ],
-        "ImageName": "receta_5_hamburguesa_casera.jpg"
+        ImageName: "https://pulsocervecero.com/wp-content/uploads/2018/05/Hamb_Cerdo-Kelvinator.jpg"
       }
       ];
      res.json(recipes);
