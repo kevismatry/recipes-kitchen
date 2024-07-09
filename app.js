@@ -4,8 +4,9 @@ const express = require('express');
 
  app.get('/', (req, res) => res.send('Hello World!'));
 
+ 
  app.get('/recipes', (req, res) => {
-     const recipes = [
+     const recipes  = [
       {
         id: 1,
         recipeName: "Arroz con pollo",
@@ -33,7 +34,7 @@ const express = require('express');
           "5. Cocinar la pasta según las instrucciones del paquete.",
           "6. Servir la pasta con la salsa bolognesa encima."
         ],
-         ImageName: "https://img-global.cpcdn.com/recipes/f4602e2b1a90452c/680x482cq70/espagueti-a-la-bolonesa-o-bolognesa-foto-principal.jpg"
+        imageName: "https://img-global.cpcdn.com/recipes/f4602e2b1a90452c/680x482cq70/espagueti-a-la-bolonesa-o-bolognesa-foto-principal.jpg"
       },
       {
         id: 3,
@@ -47,7 +48,7 @@ const express = require('express');
           "4. Mezclar bien todos los ingredientes.",
           "5. Servir frío."
         ],
-        ImageName: "https://img-global.cpcdn.com/recipes/1036403730ea5ec6/400x400cq70/photo.jpg"
+        imageName: "https://img-global.cpcdn.com/recipes/1036403730ea5ec6/400x400cq70/photo.jpg"
       },
       {
         id: 4,
@@ -61,7 +62,7 @@ const express = require('express');
           "4. Rellenar las tortillas con la carne asada y agregar salsa y guarniciones al gusto.",
           "5. Servir caliente."
         ],
-        ImageName: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrPsCHRLgQbAbOCqieML-MwCLQCrEMCSP1IQ&s"
+        imageName: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrPsCHRLgQbAbOCqieML-MwCLQCrEMCSP1IQ&s"
       },
       {
         id: 5,
@@ -75,7 +76,7 @@ const express = require('express');
           "4. Tostar los panes y montar las hamburguesas con los ingredientes deseados.",
           "5. Servir caliente."
         ],
-        ImageName: "https://pulsocervecero.com/wp-content/uploads/2018/05/Hamb_Cerdo-Kelvinator.jpg"
+        imageName: "https://pulsocervecero.com/wp-content/uploads/2018/05/Hamb_Cerdo-Kelvinator.jpg"
       }
       ];
      res.json(recipes);
