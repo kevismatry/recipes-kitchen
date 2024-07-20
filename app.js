@@ -6,6 +6,7 @@ const express = require('express');
 
  
  app.get('/recipes', (req, res) => {
+  res.header('Access-Control-Allow-Origin','*')
      const recipes  = [
       {
         id: 1,
